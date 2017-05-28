@@ -22,8 +22,13 @@ class Base16Style(Style):
     base0e = '#6666ea'
     base0f = '#c33ff3'
 
+    default_style = ''
+
+    background_color = base00
+    highlight_color = base02
+
     styles = {
-        Text: 'bg:{} {}'.format(base00, base05),
+        Text: base05,
         Error: base08,  # .err
 
         Comment: base03,  # .c
