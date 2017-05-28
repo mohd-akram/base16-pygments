@@ -5,7 +5,7 @@ from setuptools import setup
 
 base_dir = path.abspath(path.dirname(__file__))
 
-with open(path.join(base_dir, 'README.md'), encoding='utf-8') as f:
+with open(path.join(base_dir, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 styles = []
@@ -17,7 +17,7 @@ for filename in glob(path.join(base_dir, 'pygments_base16', 'base16-*.py')):
 setup(
     name='pygments-base16',
 
-    version='1.0.0',
+    version='1.0.1',
 
     description='Base16 styles for Pygments',
     long_description=long_description,
