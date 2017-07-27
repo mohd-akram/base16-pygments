@@ -1,3 +1,4 @@
+from io
 from os import path
 from glob import glob
 from string import capwords
@@ -5,7 +6,7 @@ from setuptools import setup
 
 base_dir = path.abspath(path.dirname(__file__))
 
-with open(path.join(base_dir, 'README.rst'), encoding='utf-8') as f:
+with io.open(path.join(base_dir, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 styles = []
