@@ -18,7 +18,7 @@ for filename in glob(path.join(base_dir, 'pygments_base16', 'base16-*.py')):
 setup(
     name='pygments-base16',
 
-    version='1.0.2',
+    version='1.0.3',
 
     description='Base16 styles for Pygments',
     long_description=long_description,
