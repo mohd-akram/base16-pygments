@@ -1,3 +1,4 @@
+from io import open  # Python 2
 from os import path
 from glob import glob
 from string import capwords
