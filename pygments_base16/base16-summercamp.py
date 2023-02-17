@@ -5,22 +5,22 @@ from pygments.token import (
 
 
 class Base16Style(Style):
-    base00 = '#383838'
-    base01 = '#404040'
-    base02 = '#606060'
-    base03 = '#6f6f6f'
-    base04 = '#808080'
-    base05 = '#dcdccc'
-    base06 = '#c0c0c0'
-    base07 = '#ffffff'
-    base08 = '#dca3a3'
-    base09 = '#dfaf8f'
-    base0a = '#e0cf9f'
-    base0b = '#5f7f5f'
-    base0c = '#93e0e3'
-    base0d = '#7cb8bb'
-    base0e = '#dc8cc3'
-    base0f = '#000000'
+    base00 = '#1c1810'
+    base01 = '#2a261c'
+    base02 = '#3a3527'
+    base03 = '#504b38'
+    base04 = '#5f5b45'
+    base05 = '#736e55'
+    base06 = '#bab696'
+    base07 = '#f8f5de'
+    base08 = '#e35142'
+    base09 = '#fba11b'
+    base0a = '#f2ff27'
+    base0b = '#5ceb5a'
+    base0c = '#5aebbc'
+    base0d = '#489bf0'
+    base0e = '#FF8080'
+    base0f = '#F69BE7'
 
     default_style = ''
 
@@ -66,7 +66,7 @@ class Base16Style(Style):
 
 from string import capwords  # noqa: E402
 Base16Style.__name__ = 'Base16{}Style'.format(
-    capwords('zenburn', '-').replace('-', '')
+    capwords('summercamp', '-').replace('-', '')
 )
 globals()[Base16Style.__name__] = globals()['Base16Style']
 del globals()['Base16Style']

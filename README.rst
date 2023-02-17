@@ -8,4 +8,4 @@ To use with Pygments:
 
 `pip install pygments-base16`
 
-`Styles <http://chriskempson.com/projects/base16/>`_
+`Styles <https://base16.netlify.app/>`_
