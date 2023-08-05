@@ -1,6 +1,6 @@
 from pygments.style import Style
 from pygments.token import (
-    Comment, Error, Keyword, Literal, Name, Number, Operator, String, Text
+    Comment, Error, Keyword, Literal, Name, Number, Operator, Punctuation, String, Text
 )
 
 
@@ -38,6 +38,7 @@ class Base16Style(Style):
         Keyword: base0e,  # .k
         Keyword.Type: base08,  # .kt
 
+        Name: base0d,  # .n
         Name.Attribute: base0d,  # .na
         Name.Builtin: base0d,  # .nb
         Name.Builtin.Pseudo: base08,  # .bp
@@ -56,6 +57,7 @@ class Base16Style(Style):
         Operator.Word: base0e,  # .ow
 
         Literal: base0b,  # .l
+        Punctuation: base0c,  # .p
 
         String: base0b,  # .s
         String.Interpol: base0f,  # .si
